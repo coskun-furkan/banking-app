@@ -121,13 +121,13 @@ Main class that boots the Spring application.
 ## 🖼️ Screenshots
 
 Post
-![image](https://github.com/user-attachments/assets/46b67ec0-580d-4009-8dee-959a676e3c25)
+![Screenshot 2025-04-07 201439 png](https://github.com/user-attachments/assets/7340ba80-b74d-42f2-ae2f-a6421fe71427)
 
 Deposit Money into an account
-![image](https://github.com/user-attachments/assets/eddb35d8-e94b-44b1-a5c2-c7abdbea7596)
+![Screenshot 2025-04-07 202340 png](https://github.com/user-attachments/assets/c91847e4-f2a9-45bc-b199-60a4038de970)
 
 Withdraw Money from an account
-![image](https://github.com/user-attachments/assets/c56c67f5-9970-4ba5-a241-976169a77493)
+![Screenshot 2025-04-07 202540 png](https://github.com/user-attachments/assets/a9a0dad3-e590-40f3-b111-8a5d1c3a67fb)
 
 ---
 
