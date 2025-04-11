@@ -12,7 +12,7 @@ A simple banking application built with **Spring Boot** and **MySQL** that allow
 
 ## 🛠️ Technologies Used
 
-- Java 17+
+- Java 23+
 - Spring Boot
 - Spring Data JPA
 - MySQL
