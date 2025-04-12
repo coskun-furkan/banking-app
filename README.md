@@ -40,7 +40,7 @@ BankingProject/
 
 ---
 
-## 🚀 Getting Started
+# Getting Started
 
 ### Prerequisites
 
