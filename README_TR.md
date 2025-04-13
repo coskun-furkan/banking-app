@@ -4,7 +4,7 @@ Bu proje, Spring Boot kullanılarak geliştirilmiş basit bir banka hesap yönet
 
 ---
 
-## 🚀 Proje Amacı
+## Proje Amacı
 
 Bu uygulamanın amacı, Java Spring Boot framework'ü ile temel CRUD işlemlerini öğrenmek ve uygulamak; aynı zamanda veritabanı bağlantısı (MySQL) ve REST API mantığını kavramaktır.
 
@@ -33,16 +33,16 @@ MySQL'de aşağıdaki komutla bir veritabanı oluşturun:
 CREATE DATABASE Banking;
 ```
 
-### 2. `application.properties` Ayarları
+### 2. application.properties Ayarları
 
 `src/main/resources/application.properties` dosyasına aşağıdaki satırları ekleyin:
 
-```properties
+properties
 spring.datasource.url=jdbc:mysql://localhost:3306/Banking
 spring.datasource.username=root
 spring.datasource.password=root
 spring.jpa.hibernate.ddl-auto=update
-```
+
 
 > Not: Kullanıcı adı ve şifreyi kendi sisteminize göre değiştirin.
 
@@ -79,7 +79,7 @@ spring.jpa.hibernate.ddl-auto=update
 
 ---
 
-## 🧪 Postman ile API Testi
+## Postman ile API Testi
 
 Aşağıda, `/api/accounts` endpoint'ine yapılan bir GET isteği sonucunun ekran görüntüsü yer almaktadır:
 
