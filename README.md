@@ -1,8 +1,8 @@
-# 🏦 Banking Application
+#  Banking Application
 
 A simple banking application built with **Spring Boot** and **MySQL** that allows users to create bank accounts, view account details, deposit and withdraw money. This project demonstrates the basic usage of RESTful APIs, data persistence using Spring Data JPA, and database operations with MySQL.
 
-## 📌 Features
+# Features
 
 - Create a new bank account
 - Get details of a single account
@@ -10,7 +10,7 @@ A simple banking application built with **Spring Boot** and **MySQL** that allow
 - Deposit money into an account
 - Withdraw money from an account
 
-## 🛠️ Technologies Used
+# Technologies Used
 
 - Java 23+
 - Spring Boot
@@ -22,7 +22,7 @@ A simple banking application built with **Spring Boot** and **MySQL** that allow
 
 ---
 
-## 📂 Project Structure
+# Project Structure
 
 ```
 BankingProject/
@@ -44,11 +44,11 @@ BankingProject/
 
 ### Prerequisites
 
-- Java 17+
+- Java 23+
 - MySQL installed and running
 - Maven
 
-### Setup
+# Setup
 
 1. **Clone the repository**
 
@@ -82,7 +82,7 @@ spring.jpa.hibernate.ddl-auto=update
 
 ---
 
-## 🌐 API Endpoints
+#API Endpoints
 
 | Method | Endpoint                | Description                 |
 |--------|-------------------------|-----------------------------|
@@ -94,31 +94,31 @@ spring.jpa.hibernate.ddl-auto=update
 
 ---
 
-## 🧩 Component Breakdown
+# Component Breakdown
 
-### 🔹 AccountController.java
+# AccountController.java
 
 Handles all HTTP requests and maps them to service methods. Provides RESTful endpoints to interact with the application.
 
-### 🔹 AccountService.java
+# AccountService.java
 
 Contains business logic such as depositing, withdrawing, fetching, and saving accounts.
 
-### 🔹 AccountRepository.java
+# AccountRepository.java
 
 Interface extending `JpaRepository` to interact with the MySQL database.
 
-### 🔹 Account.java
+# Account.java
 
 The entity representing a bank account. It includes `id`, `accountHolderName`, and `balance`.
 
-### 🔹 BankingProjectApplication.java
+# BankingProjectApplication.java
 
 Main class that boots the Spring application.
 
 ---
 
-## 🖼️ Screenshots
+# Screenshots
 
 Post
 ![Screenshot 2025-04-07 201439 png](https://github.com/user-attachments/assets/7340ba80-b74d-42f2-ae2f-a6421fe71427)
@@ -131,12 +131,12 @@ Withdraw Money from an account
 
 ---
 
-## 🤝 Contributing
+# Contributing
 
 All contributions, bug reports, bug fixes, documentation improvements, enhancements, and ideas are welcome.
 
 ---
 
-## 📃 License
+# License
 
 This project is open-source and available under the [MIT License](LICENSE).
